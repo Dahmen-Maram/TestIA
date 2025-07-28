@@ -5,7 +5,8 @@ import os
 import uuid
 
 app = FastAPI()
-model = whisper.load_model("large")
+model = whisper.load_model("medium")
+
 
 def convert_to_wav(file_path):
     if file_path.endswith(".m4a"):
