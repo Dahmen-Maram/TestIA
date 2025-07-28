@@ -1,5 +1,5 @@
 FROM python:3.10
-
+EXPOSE 10000
 # Installer ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
 
